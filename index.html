@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">"
+	<link rel="stylesheet" href="style.css" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> GYPSY VIAGENS - Para pessoas sem raízes fixas</title>
+	
+</head>
+<body>
+<header class="container-fluid p-2 bg-warning text-center">
+	<nav class="navbar navbar-expand-lg bg-warning">
+		<div class="container-fluid">
+		  <a class="navbar-brand" href="#">GYPSY VIAGENS</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+			<ul class="navbar-nav">
+			  <li class="nav-item">
+				<a class="nav-link" aria-current="page" href="#">Pacotes</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Taxas</a>
+			  </li>
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				  Contato
+				</a>
+				<ul class="dropdown-menu">
+				  <li><a class="dropdown-item" href="#">Action</a></li>
+				  <li><a class="dropdown-item" href="#">Another action</a></li>
+				  <li><hr class="dropdown-divider"></li>
+				  <li><a class="dropdown-item" href="#">Something else here</a></li>
+				</ul>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+		<h1> Venha realizar a viagem dos seus sonhos</h1>
+		<p>
+			"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+		</p>
+	</header>
+<section class="container-fluid bg-light text-center">
+	<h2>Conheça nossos Pacotes</h2>
+	<p>
+	Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere placeat numquam, nesciunt deleniti quo sunt pariatur voluptatibus beatae consequatur ratione iusto est totam et ducimus nostrum dicta aut debitis animi.	
+	<hr>
+	</p>
+	<div class="row"> 
+		<figure class="col text-center">
+			<img src="IMG/20170721_Gotham_Shield_NYC_Aerials-225_medium.jpg" alt="Cidade de Nova York">
+			<figcaption> Nova York - Estados Unidos</figcaption>	  
+		</figure>
+		<figure class="col text-center">
+			<img src="IMG/espanha-madri-1170x640.jpg" alt="Cidade de Barcelona">
+			<figcaption>Barcelona - Espanha</figcaption>
+		</figure>
+		<figure class="col text-center">
+			<img src="IMG/passagens-aereas-havana-capa2019-04.jpg" alt="Havana - Cuba">
+			<figcaption>Havana - Cuba</figcaption>
+		</figure>
+	</div>
+</section>
+
+<br><br>
+<section class="container-fluid bg-warning"> 
+	<h2>Taxas e Serviços</h2>
+	<p> Veja nossas taxas de serviços</p>
+	<table border>
+		<caption> Descrição dos serviços e respectivos valores </caption>
+		<thead> 
+		<tr>
+			<th>
+				Serviço
+			</th>
+			<th>
+				Valor
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				Reserva de Hotel  
+			</td>
+			<td>
+				R$500,00
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Aluguel de Carros
+			</td>
+			<TD>
+				R$50,00
+			</TD>
+		</tr>
+	</tbody>
+	</table>
+</section>
+<section class="container-fluid bg-light">
+	<h2>Orçamento</h2>
+	<form method="get" action="">
+
+	  <fieldset>	
+	   <legend>Dados da Viagem</legend>
+	   <div class="mb-3"></div>
+       <label>Nome</label><br>
+       <input type="text"name="nome"> <br><br>
+
+	   <label>Email</label><br>
+	   <input type="email" name="email" > <br>
+
+	   <label>Data de ida</label><br>
+	   <input type="date" name="dataIda"><br><br>
+
+	   <label>Data de Volta</label><br>
+	   <input type="date" name="dataVolta"><br><br>
+
+	   <label>Quantidade de Pessoas</label><br>
+	   <input type="number" name="qtdPesoas"><br><br> 
+	  </fieldset>
+
+	   <fieldset>
+	       <legend>Quais serviços você deseja contratar?</lagend>
+		    <label>
+	           <br><input type="checkbox" name="passagens" value="passagens">Compra de Passagens
+	  		</label>
+	  		<label>
+		      <br><input type="checkbox" name="hospedagem" value="hospedagem">Reserva de hospedagem
+	  		</label>
+      		<label>
+     		 <br><input type="checkbox" type="veiculos" value="veiculo">Reserva de Veiculos 
+			</label>
+	   </fieldset>
+
+	   <fieldset>
+		   <legend>Escolha a forma de pagamento</legend>
+		   <label>
+			 <br><input type="radio" name="formaPag" value="Cartão de 
+			  Crédito"> Cartão de crédito
+		   </label>
+		   <label>
+			<br><input type="radio" name="formaPag" value="Boleto">Boleto 					Bancario
+		   </label>
+		   <label>
+			<br><input type="radio" name="formaPag" value="Pix"> Pix
+		   </label>
+	   </fieldset>
+
+	   <fieldset>
+		   <legend>Escolha o prazo para pagamento</legend>
+		   <select name="prazoPag">
+             <option value="aVista"> Á vista</option>
+			 <option value="5x">5 vezes sem juros</option>
+			 <option value="10x">10 vezes com juros</option>
+		   </select>
+	   </fieldset>
+
+	   <label>Comentário </label><br>
+	   <textarea rows="5" name="comentario" ></textarea><br>
+
+	   <button>Enviar</button>
+	</form>
+</section>
+<footer class="container-fluid bg-warning">
+	<p>Desenvolvido por Natalia Fonseca - 2023</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
